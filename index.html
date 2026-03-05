@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Karlvin Fidelin</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__wrap">
+        <div class="hero__grid">
+          <div class="hero__left">
+            <div class="name-pill">
+              <p class="ff-playfair name-pill__text">Fidelin Karlvin</p>
+            </div>
+
+            <div class="hero__stack">
+              <p class="ff-roboto hero__role">Développeur web</p>
+
+              <h1 class="ff-playfair hero__title">
+                <span class="t-white">Construire des interfaces</span><br />
+                <span class="t-gradient">web modernes</span>
+                <span class="t-white"> et légères.</span>
+              </h1>
+
+              <p class="ff-roboto hero__subtitle">
+                Un profil junior, en pleine montée en compétences, avec l'envie
+                d'apprendre auprès d'équipes plus expérimentées.
+              </p>
+            </div>
+
+            <div class="hero__cta">
+              <a href="#projets" class="btn btn--primary ff-roboto"
+                >Voir mes projets</a
+              >
+              <a href="#contact" class="btn btn--ghost ff-roboto"
+                >Me contacter</a
+              >
+            </div>
+          </div>
+
+          <div class="hero__right">
+            <div class="photo-card">
+              <img alt="Photo de Fidelin Karlvin" src="./assets/moi.png" />
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__arrow">
+          <a
+            href="#projets"
+            aria-label="Aller à la section projets"
+            class="arrow-link"
+          >
+            <div class="arrow-rot">
+              <svg
+                class="arrow-svg"
+                fill="none"
+                viewBox="0 0 57 29.4558"
+                aria-hidden="true"
+              >
+                <path
+                  d="M56.4142 16.1421C57.1953 15.3611 57.1953 14.0948 56.4142 13.3137L43.6863 0.585787C42.9052 -0.195262 41.6389 -0.195262 40.8579 0.585787C40.0768 1.36684 40.0768 2.63317 40.8579 3.41421L52.1716 14.7279L40.8579 26.0416C40.0768 26.8227 40.0768 28.089 40.8579 28.8701C41.6389 29.6511 42.9052 29.6511 43.6863 28.8701L56.4142 16.1421ZM0 14.7279V16.7279H55V14.7279V12.7279H0V14.7279"
+                  fill="url(#paint0_linear_hero)"
+                />
+                <defs>
+                  <linearGradient
+                    gradientUnits="userSpaceOnUse"
+                    id="paint0_linear_hero"
+                    x1="0"
+                    x2="55"
+                    y1="15.2279"
+                    y2="15.2279"
+                  >
+                    <stop stop-color="#E3CFA8" />
+                    <stop offset="1" stop-color="#7D725D" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS (bande beige) -->
+    <section id="projets" class="projects">
+      <div class="projects__wrap">
+  
+        <h2 class="ff-playfair projects__title">Sélection de projets</h2>
+
+        <div class="project-grid">
+          <!-- Carte projet (duplique / modifie) -->
+          <article class="project-card">
+            <p class="ff-roboto project-card__meta">Projet de location</p>
+            <div class="project-card__thumb">
+              <video autoplay muted loop playsinline>
+                <source src="./assets/cabinup.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <h3 class="ff-playfair project-card__h3">
+              CabinUp — Site de location
+            </h3>
+            <p class="ff-roboto project-card__p">
+              Site front-end simulant un parcours utilisateur complet :
+              catalogue, fiches produit et formulaire de demande de location.
+            </p>
+
+            <div class="tag-row">
+              <span class="tag">Front-end</span>
+              <span class="tag">JS</span>
+              <span class="tag">Front-end</span>
+              <span class="tag">Front-end</span>
+              <span class="tag">JS</span>
+              <span class="tag">Front-end</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="ff-roboto project-card__meta">Librairie</p>
+            <div class="project-card__thumb">
+              <video autoplay muted loop playsinline>
+                <source src="./assets/librairie.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <h3 class="ff-playfair project-card__h3">
+               Application de gestion de livres
+            </h3>
+            <p class="ff-roboto project-card__p">
+              Application web développée avec Symfony 7 permettant de gérer un catalogue de livres.
+Les administrateurs peuvent ajouter, modifier et supprimer des livres, avec leurs informations et images.
+            </p>
+
+            <div class="tag-row">
+              <span class="tag">Front-end</span>
+              <span class="tag">JS</span>
+              <span class="tag">Front-end</span>
+              <span class="tag">Front-end</span>
+              <span class="tag">JS</span>
+              <span class="tag">Front-end</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+  <p class="ff-roboto project-card__meta">Projet Front-end</p>
+
+  <div class="project-card__thumb">
+    <video autoplay muted loop playsinline>
+      <source src="./assets/klassiker.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <h3 class="ff-playfair project-card__h3">
+    The Klassiker – Site vitrine
+  </h3>
+
+  <p class="ff-roboto project-card__p">
+    Site web front-end développé en HTML, CSS et JavaScript présentant
+    une interface moderne avec navigation entre différentes sections
+    et un design responsive adapté aux différents écrans.
+  </p>
+
+  <div class="tag-row">
+    <span class="tag">HTML</span>
+    <span class="tag">CSS</span>
+    <span class="tag">JavaScript</span>
+    <span class="tag">Responsive</span>
+    <span class="tag">Front-end</span>
+  </div>
+</article>
+
+          <article class="project-card">
+            <p class="ff-roboto project-card__meta">Projet de location</p>
+            <div class="project-card__thumb">
+              <video autoplay muted loop playsinline>
+                <source src="./assets/projet1.mp4" type="video/mp4" />
+              </video>
+            </div>
+
+            <h3 class="ff-playfair project-card__h3">
+              CabinUp — Site de location
+            </h3>
+            <p class="ff-roboto project-card__p">
+              Site front-end simulant un parcours utilisateur complet :
+              catalogue, fiches produit et formulaire de demande de location.
+            </p>
+          </article>
+        </div>
+
+        <div class="projects__more">
+          <a
+            class="ff-roboto projects__github"
+            href="https://github.com/karlvinfdl"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Voir plus de code sur mon GitHub →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT + PARCOURS -->
+    <section class="about">
+      <div class="about__wrap about__grid">
+        <!-- Colonne gauche -->
+        <div id="apropos" class="about__left">
+          <p class="ff-roboto about__kicker">À propos</p>
+
+          <h2 class="ff-playfair about__h2">Qui je suis ?</h2>
+
+          <div class="about__text ff-roboto">
+            <p>
+              Je suis en formation Développeur Web & Web Mobile au campus
+              MO//TECH. J'y apprends les bases solides du front-end : HTML, CSS,
+              JavaScript, ainsi que les bonnes pratiques de versionning avec
+              Git.
+
+              <span>
+                Je m'intéresse particulièrement à la façon dont une interface
+                est perçue : typographie, équilibre, hiérarchie visuelle et
+                expérience utilisateur.
+              </span>
+            </p>
+          </div>
+
+          <div id="contact" class="contact">
+            <p class="ff-roboto contact__lead">
+              Vous cherchez un profil junior motivé, prêt à apprendre et à
+              contribuer sur du front-end ? Parlons-en.
+            </p>
+
+            <div class="contact__items ff-roboto">
+              <div class="contact__item">
+                <p class="contact__label">Email</p>
+                <a class="contact__value" href="mailto:karlvinfidelin@gmail.com"
+                  >karlvinfidelin@gmail.com</a
+                >
+              </div>
+              <div class="contact__item">
+                <p class="contact__label">Téléphone</p>
+                <a class="contact__value" href="tel:+33696114806"
+                  >06 96 11 48 06</a
+                >
+              </div>
+              <div class="contact__item">
+                <p class="contact__label">GitHub</p>
+                <a
+                  class="contact__value"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/karlvinfdl"
+                  >github.com/karlvinfdl</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Colonne droite -->
+        <div id="parcours" class="about__right">
+          <div class="timeline">
+            <article class="timeline__card">
+              <p class="ff-roboto timeline__meta">Formation actuelle</p>
+              <h3 class="ff-playfair timeline__h3">
+                Développeur Web & Web Mobile — MO//TECH
+              </h3>
+              <p class="ff-roboto timeline__p">
+                HTML, CSS, JavaScript, UX, projets de groupe…
+              </p>
+            </article>
+
+            <article class="timeline__card">
+              <p class="ff-roboto timeline__meta">Formation actuelle</p>
+              <h3 class="ff-playfair timeline__h3">
+                Développeur Web & Web Mobile — MO//TECH
+              </h3>
+              <p class="ff-roboto timeline__p">
+                HTML, CSS, JavaScript, UX, projets de groupe…
+              </p>
+            </article>
+
+            <article class="timeline__card">
+              <p class="ff-roboto timeline__meta">Formation actuelle</p>
+              <h3 class="ff-playfair timeline__h3">
+                Développeur Web & Web Mobile — MO//TECH
+              </h3>
+              <p class="ff-roboto timeline__p">
+                HTML, CSS, JavaScript, UX, projets de groupe…
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cursor">
+      <div class="cursor-dot"></div>
+      <div class="cursor-circle"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__wrap">
+        <p class="ff-roboto footer__copy">
+          © 2026 Karlvin Fidelin — Portfolio.
+        </p>
+        <a href="#top" class="ff-roboto footer__top scroll-top"
+          >Retour en haut</a
+        >
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
