@@ -1,3 +1,12 @@
 # Ignore large video files
 *.mp4
 
+# Node modules
+node_modules/
+
+# Vite cache
+dist/
+
+# gh-pages cache
+node_modules/.cache/
+
